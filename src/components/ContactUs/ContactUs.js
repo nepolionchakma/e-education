@@ -9,6 +9,7 @@ const ContactUs = () => {
                 <li>Name : <input type="text" /></li>
                 <li>Email : <input type="email" name="" id="" /></li>
                 <li>Phone : <input type="number" name="" id="" /></li>
+                <li>Message : <input type="text" /></li>
                 <li><button className="btn btn-success">Send</button></li>
             </ul>
         </div>
