@@ -2,7 +2,7 @@ import React from 'react';
 import "./Course.css";
 
 const Course = (props) => {
-    const { title, price, instractor, img, skill, duration } = props.course;
+    const { title, price, instractor, img, duration } = props.course;
 
 
     return (
