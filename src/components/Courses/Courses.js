@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
-import Service from '../Service/Service';
 import "./Courses.css"
 
 const Courses = () => {
@@ -11,19 +10,16 @@ const Courses = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+    const homePageCourse = courses.slice(0, 6);
     return (
         <div>
             <div className="courses-container">
                 {
-                    courses.map(course =>
+                    homePageCourse.map(course =>
                         <Course
                             key={course.id}
                             course={course}
-                        ></Course>,
-                        <Service
-                            key={courses.id}
-                            courses={courses}
-                        ></Service>
+                        ></Course>
                     )
                 }
             </div>

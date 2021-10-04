@@ -1,19 +1,31 @@
 import React from 'react';
-import "./Course.css"
+import "./Course.css";
 
 const Course = (props) => {
     const { title, price, instractor, img, skill, duration } = props.course;
+
+
     return (
-        <div className="course-container p-3">
-            <img src={img} alt="" />
-            <h2>Title : {title}</h2>
-            <h5>Skill : {skill}</h5>
-            <h5>Duration : {duration}</h5>
-            <h5>Instractor:{instractor}</h5>
-            <h6>Price : ${price}</h6>
-            <button className="btn btn-success mt-3">Details</button>
+        <div className="course-container p-4">
+            <div>
+                <img src={img} alt="" />
+            </div>
+            <div className="pt-3">
+                <h2>{title}</h2>
+                <h5>Duration : {duration}</h5>
+                <h5>Instractor : {instractor}</h5>
+                <h6>Price : ${price}</h6>
+                <p>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                </p>
+            </div>
         </div>
     );
 };
+// const Course = Courses.slice(-2);
 
 export default Course;

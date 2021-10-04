@@ -1,7 +1,7 @@
 [
     {
         "title": "Programing",
-        "price": 100,
+        "price": 1200,
         "instractor": "Robin Son",
         "skill": "Biggener Level",
         "id": "01",
@@ -10,56 +10,74 @@
     },
     {
         "title": "MS Office ",
-        "price": 100,
-        "instractor": "Robin Son",
+        "price": 1600,
+        "instractor": "Radhika Sethi",
         "skill": "Biggener Level",
         "id": "02",
         "duration": "6 Months",
         "img": "https://9to5google.com/wp-content/uploads/sites/4/2020/02/office-header.jpg?quality=82&strip=all"
     },
     {
-        "title": "Spoken",
-        "price": 100,
-        "instractor": "Robin Son",
+        "title": "Develop Mobile Apps",
+        "price": 1300,
+        "instractor": " Syed Fahad Ahmed",
         "skill": "Biggener Level",
         "id": "03",
         "duration": "6 Months",
+        "img": "https://cdn.elearningindustry.com/wp-content/uploads/2021/07/How-To-Build-A-Successful-mobile-eLearning-App.png"
+    },
+    {
+        "title": "Infographics",
+        "price": 1800,
+        "instractor": "Christopher Pappas",
+        "skill": "Biggener Level",
+        "id": "04",
+        "duration": "8 Months",
+        "img": "https://cdn.elearningindustry.com/wp-content/uploads/2021/07/shutterstock_533700334.png"
+    },
+    {
+        "title": "Spoken",
+        "price": 1040,
+        "instractor": "Christopher Pappas",
+        "skill": "Biggener Level",
+        "id": "05",
+        "duration": "10 Months",
         "img": "https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/16075/0717_Brutalist_and_Minimalist_Web_Design_Lina_Social-cbd0996a3f2bef8b9b10b86e0c4fb9e5.png"
     },
     {
         "title": "Web Design",
-        "price": 100,
-        "instractor": "Robin Son",
-        "skill": "Biggener Level",
-        "id": "04",
-        "duration": "6 Months",
-        "img": "https://cdn.thetealmango.com/wp-content/uploads/2021/08/languages-around-the-world.png"
-    },
-    {
-        "title": "Photography",
-        "price": 100,
-        "instractor": "Robin Son",
-        "skill": "Biggener Level",
-        "id": "05",
-        "duration": "6 Months",
-        "img": "https://cdn.thetealmango.com/wp-content/uploads/2021/08/languages-around-the-world.png"
-    },
-    {
-        "title": "Writing",
-        "price": 100,
-        "instractor": "Robin Son",
+        "price": 1500,
+        "instractor": " Isha Sood",
         "skill": "Biggener Level",
         "id": "06",
-        "duration": "6 Months",
+        "duration": "9 Months",
         "img": "https://cdn.thetealmango.com/wp-content/uploads/2021/08/languages-around-the-world.png"
     },
     {
-        "title": "Photoshop",
-        "price": 100,
-        "instractor": "Robin Son",
+        "title": "PhotMobile Apps Transforming",
+        "price": 1090,
+        "instractor": "Radhika Sethi",
         "skill": "Biggener Level",
         "id": "07",
-        "duration": "6 Months",
-        "img": "https://cdn.thetealmango.com/wp-content/uploads/2021/08/languages-around-the-world.png"
+        "duration": "5 Months",
+        "img": "https://cdn.elearningindustry.com/wp-content/uploads/2020/05/educational-applications-are-transforming-education.jpg"
+    },
+    {
+        "title": "Android And iOS Apps",
+        "price": 1700,
+        "instractor": "smith johnes",
+        "skill": "Biggener Level",
+        "id": "08",
+        "duration": "7 Months",
+        "img": "https://cdn.elearningindustry.com/wp-content/uploads/2021/02/benefits-of-android-and-ios-apps-in-elearning.png"
+    },
+    {
+        "title": "Effective Storyboards",
+        "price": 1400,
+        "instractor": "Naveen Neelakandan",
+        "skill": "Biggener Level",
+        "id": "09",
+        "duration": "8 Months",
+        "img": "https://cdn.elearningindustry.com/wp-content/uploads/2021/03/how-to-create-effective-elearning-storyboards.png"
     }
 ]

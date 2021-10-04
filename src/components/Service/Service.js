@@ -1,21 +1,28 @@
 import React from 'react';
+import "./Service.css"
 
 const Service = (props) => {
-    console.log(props)
+
+    const { img, title, price, instractor, skill, duration } = props.service;
     return (
-        <div>
-            {/* const {title, price, instractor, img, skill, duration} = props.courses; */}
-            return (
-            <div className="course-container p-3">
-                {/* <img src={img} alt="" />
-                <h2>Title : {title}</h2>
+        <div className="service-container p-4">
+            <div>
+                <img src={img} alt="" />
+            </div>
+            <div className="pt-3">
+                <h2>{title}</h2>
                 <h5>Skill : {skill}</h5>
                 <h5>Duration : {duration}</h5>
                 <h5>Instractor:{instractor}</h5>
                 <h6>Price : ${price}</h6>
-                <button className="btn btn-success mt-3">Details</button> */}
+                <p>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                </p>
             </div>
-            );
         </div>
     );
 };
