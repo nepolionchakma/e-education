@@ -1,0 +1,11 @@
+.course-container{
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    background-color: rgba(128, 128, 128, 0.178);
+}
+img{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 30px;
+}
