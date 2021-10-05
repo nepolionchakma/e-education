@@ -1,10 +1,10 @@
-# This is "eLearning" Plateform
+# This is "eLearning" Online Course Plateform
 
-On [Live Link](https://elearning-by-nepo.netlify.app/).
+On [Live Link Here](https://elearning-by-nepo.netlify.app/).
 
-## what you can do here
+## what you can do here ?
 
-1.add cart
+1.View Courses
 
 2.learn online
 
@@ -14,4 +14,20 @@ On [Live Link](https://elearning-by-nepo.netlify.app/).
 
 5.Follow us
 
-6.Favorite Inastractory
+6.Favorite Inastractor
+
+7. Newsletter
+
+## Full Responsive Website
+
+## Using
+
+1.React
+
+2.Bootstrap
+
+3.Fontawsome
+
+4.CSS
+
+5.JSX
