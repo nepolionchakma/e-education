@@ -1,9 +1,7 @@
 .footer-container{
     background: #9598bb;
 }
-.footer-top-container{
-    
-}
+
 .footer-container nav ul li{
     margin: 5px;
     list-style: none;
@@ -12,5 +10,17 @@
 }
 .footer-container nav ul li a{
     text-decoration: none;
-    color: rgb(14 25 159)!important;
+    border-bottom: 4px solid transparent;
+    color: rgba(0, 0, 0, 0.589);
+    font-weight: bold;
+}
+.footer-top-container nav ul li a:hover{
+    border-bottom: 4px solid #ffc107;
+    color: #ffc107;
+}
+.logo{
+    border: 4px solid #ffc107;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
 }

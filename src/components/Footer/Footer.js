@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-container p-3">
             <div className="footer-top-container py-4 row ">
                 <div className="mt-5 col-lg-3 col-md-12 col-sm-12 text-center pb-3">
-                    <a className="text-warning fw-bold fs-1" href="/home"><span className="fs-1 text-success fw-bold">e</span>Education</a>
+                    <a className="text-warning fw-bold fs-1 logo" href="/home"><span className="fs-1 text-success fw-bold">e</span>Education</a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-4">
                     <h4>Follow Us On</h4>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <p>20 Hatazari, Chittagong, Bangladesh</p>
                     </address>
                 </div>
-                <div className="col-lg-3  col-md-4 col-sm-4">
+                <div className="col-lg-3 text-dark col-md-4 col-sm-4">
                     <nav>
                         <ul>
                             <li><Link to="/home"><i className="fas fa-home mx-1"></i> Home</Link></li>
