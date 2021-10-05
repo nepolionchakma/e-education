@@ -6,22 +6,24 @@ const Course = (props) => {
 
 
     return (
-        <div className="course-container p-4">
-            <div>
-                <img src={img} alt="" />
-            </div>
-            <div className="pt-3">
-                <h2>{title}</h2>
-                <h5>Duration : {duration}</h5>
-                <h5>Instractor : {instractor}</h5>
-                <h6>Price : ${price}</h6>
-                <p>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="far fa-star"></i>
-                </p>
+        <div className="course-container p-0 col-lg-4 col-md-6 col-sm-12">
+            <div className="p-4 m-3 shadow rounded course-in">
+                <div className="text-center">
+                    <img src={img} alt="" />
+                </div>
+                <div className="p-3">
+                    <h2>{title}</h2>
+                    <h5>Duration : {duration}</h5>
+                    <h5>Instractor : {instractor}</h5>
+                    <h6>Price : ${price}</h6>
+                    <p>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="far fa-star"></i>
+                    </p>
+                </div>
             </div>
         </div>
     );

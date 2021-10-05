@@ -1,9 +1,8 @@
 .footer-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 30px;
-    padding: 30px;
     background: #9598bb;
+}
+.footer-top-container{
+    
 }
 .footer-container nav ul li{
     margin: 5px;

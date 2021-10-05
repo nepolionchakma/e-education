@@ -1,4 +1,6 @@
 .about-container{
-width: 1280px;
 text-align: center;
+background: url(https://lighthouse-tc.com/wp-content/uploads/2020/08/e-learning-header-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }

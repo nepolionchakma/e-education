@@ -1,13 +1,10 @@
-.course-container{
-    border-radius: 10px;
-    border: 1px solid skyblue;
-    background-color: rgba(128, 128, 128, 0.178);
-}
-.course-container:hover{
-    box-shadow: rgb(0 0 0 / 19%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 0px 20px 4px;
+
+.course-in:hover{
+    box-shadow: rgb(0 0 0 / 19%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 0px 20px 4px!important;
+    color: goldenrod;
 }
 
-img {
+.course-container img {
     border-radius: 30px;
     transition: transform .5s;
     width: 300px;
@@ -15,7 +12,7 @@ img {
     margin: 0 auto;
     overflow: hidden;
 }
-img:hover{
+.course-container img:hover{
     transform: scale(1.08);
 }
 i{
