@@ -10,8 +10,6 @@ import About from './components/About/About';
 import ContactUs from './components/ContactUs/ContactUs';
 
 
-
-
 function App() {
   return (
 
